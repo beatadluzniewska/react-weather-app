@@ -25,12 +25,11 @@
     list-style: none;
 }
 
-.Weather img {
-    position: relative;
-    top: -32px;
-    height: 64px;
-    width: 64px;
-    margin-right: 10px;
+.Weather canvas {
+    /* position: relative;
+    top: -32px; */
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .Weather .temperature {
     font-weight: bold;
