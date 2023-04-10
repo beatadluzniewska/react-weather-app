@@ -17,8 +17,7 @@ export default function Weather(props) {
             wind: response.data.wind.speed,
             description: response.data.weather[0].description,
             date: new Date(response.data.dt * 1000),
-            iconUrl:
-                "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+            iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         });
     }
 
